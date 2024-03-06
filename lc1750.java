@@ -10,7 +10,7 @@ class Solution {
             {
                 char current=s.charAt(i);
                 
-                while((i<=j)&&(s.charAt(i)==current))
+                while((i<=j)&&( s.charAt(i)==current))
                     i++;
             
                 while((j>=i)&&(s.charAt(j)==current))
