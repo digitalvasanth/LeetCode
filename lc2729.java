@@ -2,7 +2,7 @@ class Solution {
     public boolean isFascinating(int n) {
         
         int n1=2*n;
-        int n2=3*n;
+        int n2=3*n; 
         
         //adding given number (n1 and n2) in string format
         String concat=n+""+n1+n2;
