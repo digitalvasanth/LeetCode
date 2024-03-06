@@ -6,7 +6,7 @@ class Solution {
          if(num%(temp%10)==0)
          count++;
          temp=temp/10;
-      }
+      } 
       return count;
     }
 }
