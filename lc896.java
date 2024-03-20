@@ -8,7 +8,7 @@ class Solution {
             dec=false;
             if(arr[i]>arr[i+1])
             inc=false;
-        }
+        } 
 
         return inc||dec;
     }
